@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guia Educativo: Desenvolvimento Web</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header role="banner">
+    <div class="container">
+      <h1>Guia Educativo: Desenvolvimento Web</h1>
+      <button id="theme-toggle" aria-label="Alternar tema">🌙</button>
+      <nav role="navigation" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#html-css-js">HTML, CSS e JS</a></li>
+          <li><a href="#boas-praticas">Boas Práticas</a></li>
+          <li><a href="#panorama">Panorama Tecnológico</a></li>
+          <li><a href="#fluxograma">Fluxograma</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section id="html-css-js" aria-labelledby="titulo-html-css-js">
+      <h2 id="titulo-html-css-js">1. O que são HTML, CSS e JavaScript?</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>HTML</h3>
+          <figure>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Logo HTML5" width="64" height="64">
+            <figcaption>Estrutura do conteúdo</figcaption>
+          </figure>
+          <p>HTML (HyperText Markup Language) é a linguagem de marcação que estrutura o conteúdo da web.</p>
+        </article>
+        <article class="card">
+          <h3>CSS</h3>
+          <figure>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Logo CSS3" width="64" height="64">
+            <figcaption>Estilo visual</figcaption>
+          </figure>
+          <p>CSS (Cascading Style Sheets) define o estilo visual do conteúdo HTML: cores, layout, fontes, etc.</p>
+        </article>
+        <article class="card">
+          <h3>JavaScript</h3>
+          <figure>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Logo JavaScript" width="64" height="64">
+            <figcaption>Interatividade</figcaption>
+          </figure>
+          <p>JavaScript adiciona interatividade, dinamismo e lógica aos sites, como animações, validações e manipulação de dados.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="boas-praticas" aria-labelledby="titulo-boas-praticas">
+      <h2 id="titulo-boas-praticas">2. Boas Práticas Profissionais</h2>
+      <ul>
+        <li><strong>Acessibilidade:</strong> uso de alt em imagens, navegação por teclado, contraste adequado.</li>
+        <li><strong>Semântica:</strong> uso correto de tags HTML (como <code>&lt;article&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>).</li>
+        <li><strong>Responsividade:</strong> adaptação do site para telas diferentes com media queries.</li>
+        <li><strong>Organização:</strong> separação de arquivos (HTML, CSS, JS), comentários e indentação.</li>
+        <li><strong>Versionamento:</strong> uso de Git para rastrear alterações e colaborar.</li>
+      </ul>
+      <aside>
+        <strong>Dica:</strong> Sempre teste seu site em diferentes dispositivos!
+      </aside>
+    </section>
+
+    <section id="panorama" aria-labelledby="titulo-panorama">
+      <h2 id="titulo-panorama">3. Panorama de Tecnologias Web</h2>
+      <ul>
+        <li><strong>Front-end:</strong> interface do usuário (HTML, CSS, JS, frameworks como React, Vue, Angular).</li>
+        <li><strong>Back-end:</strong> lógica do servidor (Node.js, Python, PHP, Java, etc.).</li>
+        <li><strong>Bancos de dados:</strong> onde os dados são armazenados (MySQL, PostgreSQL, MongoDB).</li>
+        <li><strong>DevOps:</strong> automação de deploy, infraestrutura, CI/CD (Docker, GitHub Actions, etc.).</li>
+        <li><strong>Testes:</strong> testes automatizados (Jest, Mocha, Selenium, etc.).</li>
+      </ul>
+      <p><em>Como escolher?</em> Avalie os requisitos do projeto, seu conhecimento atual e as demandas do mercado.</p>
+    </section>
+
+    <section id="fluxograma" aria-labelledby="titulo-fluxograma">
+      <h2 id="titulo-fluxograma">4. Fluxograma de um Projeto Web</h2>
+      <ol>
+        <li><strong>1. Ideia:</strong> definição do objetivo do site ou sistema.</li>
+        <li><strong>2. Planejamento:</strong> definição de funcionalidades, público-alvo, ferramentas.</li>
+        <li><strong>3. Design:</strong> criação de wireframes e protótipos (Figma, Adobe XD).</li>
+        <li><strong>4. Desenvolvimento:</strong> codificação do front-end e back-end.</li>
+        <li><strong>5. Testes:</strong> verificação de erros, usabilidade e performance.</li>
+        <li><strong>6. Deploy:</strong> publicação online (Vercel, Netlify, Heroku, etc.).</li>
+        <li><strong>7. Manutenção:</strong> correção de bugs, atualizações, suporte.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>Desenvolvido com <span aria-label="amor">❤️</span> para fins educativos. © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
